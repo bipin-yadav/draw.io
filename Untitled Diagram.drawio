@@ -1,34 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2024-01-03T09:38:35.931Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="MdTm2qvNCMHOhvc3QmCS" version="22.1.16" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-03T09:48:36.586Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="9BhdT0T6VCLIBHF9hNT9" version="22.1.16" type="github">
   <diagram name="Page-1" id="0dPgwRXKbLlY3jS-11X_">
     <mxGraphModel dx="1106" dy="519" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="W6Cbxzg9iyRtshOsxgw1-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="W6Cbxzg9iyRtshOsxgw1-1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="220" y="140" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="W6Cbxzg9iyRtshOsxgw1-1" value="BL Cron start" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="110" y="100" width="80" height="80" as="geometry" />
-        </mxCell>
         <mxCell id="W6Cbxzg9iyRtshOsxgw1-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="W6Cbxzg9iyRtshOsxgw1-3" target="W6Cbxzg9iyRtshOsxgw1-4">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="W6Cbxzg9iyRtshOsxgw1-3" value="read all BL rule" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="220" y="110" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="W6Cbxzg9iyRtshOsxgw1-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="W6Cbxzg9iyRtshOsxgw1-4" target="W6Cbxzg9iyRtshOsxgw1-8">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="W6Cbxzg9iyRtshOsxgw1-4" value="publish for each ruleid and origin" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="400" y="110" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="W6Cbxzg9iyRtshOsxgw1-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="W6Cbxzg9iyRtshOsxgw1-8" target="W6Cbxzg9iyRtshOsxgw1-12">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="W6Cbxzg9iyRtshOsxgw1-8" value="listen each event&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="570" y="110" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="W6Cbxzg9iyRtshOsxgw1-10" value="r1 - 10 - 5" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="440" y="70" width="80" height="30" as="geometry" />
@@ -44,9 +21,6 @@
               <mxPoint x="630" y="200" />
             </Array>
           </mxGeometry>
-        </mxCell>
-        <mxCell id="W6Cbxzg9iyRtshOsxgw1-12" value="impacted tp&lt;br&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="730" y="110" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="W6Cbxzg9iyRtshOsxgw1-14" value="redis update&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;corp event&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;ecom event" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="970" y="110" width="120" height="60" as="geometry" />
@@ -82,19 +56,57 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="W6Cbxzg9iyRtshOsxgw1-27" value="CI Table" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="425" y="190" width="60" height="80" as="geometry" />
+          <mxGeometry x="430" y="200" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="W6Cbxzg9iyRtshOsxgw1-29" value="&lt;b&gt;change type &lt;/b&gt;- &lt;br&gt;create&lt;br&gt;op_updated&lt;br&gt;mn_update&lt;br&gt;tp_deleted&lt;br&gt;blacklisted" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="240" y="420" width="100" height="100" as="geometry" />
+          <mxGeometry x="480" y="400" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="W6Cbxzg9iyRtshOsxgw1-31" value="event e1 - t1&lt;br&gt;event e2 -t2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="375" y="423" width="90" height="40" as="geometry" />
+          <mxGeometry x="790" y="420" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="W6Cbxzg9iyRtshOsxgw1-32" value="itin gen&lt;br&gt;resource data&lt;br&gt;------&lt;br&gt;corp event&lt;br&gt;ecom event&lt;br&gt;&lt;br&gt;redis update" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="W6Cbxzg9iyRtshOsxgw1-32" value="itin gen&lt;br&gt;resource data&lt;br&gt;------&lt;br&gt;corp event&lt;br&gt;ecom even&lt;br&gt;redis update" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="750" y="290" width="180" height="100" as="geometry" />
         </mxCell>
         <mxCell id="W6Cbxzg9iyRtshOsxgw1-34" value="Impacted TP" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="485" y="200" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="W6Cbxzg9iyRtshOsxgw1-35" value="BL Info&lt;br&gt;" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="50" width="280" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="W6Cbxzg9iyRtshOsxgw1-1" value="BL Cron start" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="W6Cbxzg9iyRtshOsxgw1-35">
+          <mxGeometry x="30" y="30" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="W6Cbxzg9iyRtshOsxgw1-3" value="read all BL rule" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="W6Cbxzg9iyRtshOsxgw1-35">
+          <mxGeometry x="140" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W6Cbxzg9iyRtshOsxgw1-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="W6Cbxzg9iyRtshOsxgw1-35" source="W6Cbxzg9iyRtshOsxgw1-1" target="W6Cbxzg9iyRtshOsxgw1-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W6Cbxzg9iyRtshOsxgw1-36" value="BL Event" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="40" width="480" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="W6Cbxzg9iyRtshOsxgw1-4" value="publish for each ruleid and origin" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="W6Cbxzg9iyRtshOsxgw1-36">
+          <mxGeometry x="20" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W6Cbxzg9iyRtshOsxgw1-8" value="listen each event&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="W6Cbxzg9iyRtshOsxgw1-36">
+          <mxGeometry x="190" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W6Cbxzg9iyRtshOsxgw1-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="W6Cbxzg9iyRtshOsxgw1-36" source="W6Cbxzg9iyRtshOsxgw1-4" target="W6Cbxzg9iyRtshOsxgw1-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W6Cbxzg9iyRtshOsxgw1-12" value="impacted tp&lt;br&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="W6Cbxzg9iyRtshOsxgw1-36">
+          <mxGeometry x="350" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W6Cbxzg9iyRtshOsxgw1-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="W6Cbxzg9iyRtshOsxgw1-36" source="W6Cbxzg9iyRtshOsxgw1-8" target="W6Cbxzg9iyRtshOsxgw1-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W6Cbxzg9iyRtshOsxgw1-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="W6Cbxzg9iyRtshOsxgw1-4" target="W6Cbxzg9iyRtshOsxgw1-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W6Cbxzg9iyRtshOsxgw1-38" value="PENDING/PROCESSING/COMPELETD/ERROR" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="430" y="10" width="290" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
