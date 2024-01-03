@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-03T09:31:30.331Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="BQaikED6pVlRoNV0K_lM" version="22.1.16" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-03T09:36:50.446Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="t9aaDVSN3OLOMO4eKM_V" version="22.1.16" type="github">
   <diagram name="Page-1" id="0dPgwRXKbLlY3jS-11X_">
     <mxGraphModel dx="1106" dy="519" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -69,6 +69,9 @@
         <mxCell id="W6Cbxzg9iyRtshOsxgw1-20" value="delta" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="400" y="310" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="W6Cbxzg9iyRtshOsxgw1-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="W6Cbxzg9iyRtshOsxgw1-22" target="W6Cbxzg9iyRtshOsxgw1-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="W6Cbxzg9iyRtshOsxgw1-22" value="listen" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="550" y="310" width="120" height="60" as="geometry" />
         </mxCell>
@@ -81,11 +84,17 @@
         <mxCell id="W6Cbxzg9iyRtshOsxgw1-27" value="CI Table" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="395" y="190" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="W6Cbxzg9iyRtshOsxgw1-29" value="&lt;b&gt;change type &lt;/b&gt;- &lt;br&gt;create&lt;br&gt;op_updates&lt;br&gt;mn_update&lt;br&gt;tp_deleted&lt;br&gt;blacklisted" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="W6Cbxzg9iyRtshOsxgw1-29" value="&lt;b&gt;change type &lt;/b&gt;- &lt;br&gt;create&lt;br&gt;op_updated&lt;br&gt;mn_update&lt;br&gt;tp_deleted&lt;br&gt;blacklisted" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="240" y="420" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="W6Cbxzg9iyRtshOsxgw1-31" value="event e1 - t1&lt;br&gt;event e2 -t2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="375" y="423" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="W6Cbxzg9iyRtshOsxgw1-32" value="itin gen&lt;br&gt;resource data&lt;br&gt;------&lt;br&gt;corp event&lt;br&gt;ecom event&lt;br&gt;&lt;br&gt;redis update" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="290" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="W6Cbxzg9iyRtshOsxgw1-34" value="Impacted TP" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="485" y="200" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
